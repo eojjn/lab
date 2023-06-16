@@ -76,9 +76,17 @@ Install Mailman 3 and its dependencies via pip.
 
 ::
 
- [isabell@stardust ~]$ pip3.8 install --user mailman hyperkitty postorius mailman-hyperkitty whoosh
+ [isabell@stardust ~]$ pip3.8 install --user mailman hyperkitty postorius mailman-hyperkitty whoosh 
+ [...]
+ [isabell@stardust ~]$ 
+
+Two dependencies, flufl.i18n and urllib3, need to be installed with specific versions and we need to make sure that setuptools is updated. We can do this in one command
+
+::
+ [isabell@stardust ~]$ pip3.8 install --user --upgrade flufl.i18n==3.2 urllib3==1.26.16 setuptools
  [...]
  [isabell@stardust ~]$
+ 
 
 Get Dart Sass
 -------------
