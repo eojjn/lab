@@ -80,7 +80,7 @@ Install Mailman 3 and its dependencies via pip.
  [...]
  [isabell@stardust ~]$ 
 
-Two dependencies, flufl.i18n and urllib3, need to be installed with specific versions and we need to make sure that setuptools is updated. We can do this in one command:
+Two dependencies, flufl.i18n and urllib3, need to be installed with specific versions in order for everything to work.
 
 ::
 
